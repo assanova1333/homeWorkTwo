@@ -13,9 +13,6 @@
 		3DDDD3E72B66410C002EFB12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DDDD3E52B66410C002EFB12 /* Main.storyboard */; };
 		3DDDD3E92B66410E002EFB12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DDDD3E82B66410E002EFB12 /* Assets.xcassets */; };
 		3DDDD3EC2B66410E002EFB12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DDDD3EA2B66410E002EFB12 /* LaunchScreen.storyboard */; };
-		3DDDD3F72B66410E002EFB12 /* homeWorkTwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDDD3F62B66410E002EFB12 /* homeWorkTwoTests.swift */; };
-		3DDDD4012B66410E002EFB12 /* homeWorkTwoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDDD4002B66410E002EFB12 /* homeWorkTwoUITests.swift */; };
-		3DDDD4032B66410E002EFB12 /* homeWorkTwoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDDD4022B66410E002EFB12 /* homeWorkTwoUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +42,7 @@
 		3DDDD3EB2B66410E002EFB12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DDDD3ED2B66410E002EFB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DDDD3F22B66410E002EFB12 /* homeWorkTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = homeWorkTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DDDD3F62B66410E002EFB12 /* homeWorkTwoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeWorkTwoTests.swift; sourceTree = "<group>"; };
 		3DDDD3FC2B66410E002EFB12 /* homeWorkTwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = homeWorkTwoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DDDD4002B66410E002EFB12 /* homeWorkTwoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeWorkTwoUITests.swift; sourceTree = "<group>"; };
-		3DDDD4022B66410E002EFB12 /* homeWorkTwoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeWorkTwoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				3DDDD3DE2B66410C002EFB12 /* homeWorkTwo */,
-				3DDDD3F52B66410E002EFB12 /* homeWorkTwoTests */,
-				3DDDD3FF2B66410E002EFB12 /* homeWorkTwoUITests */,
 				3DDDD3DD2B66410C002EFB12 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				3DDDD3ED2B66410E002EFB12 /* Info.plist */,
 			);
 			path = homeWorkTwo;
-			sourceTree = "<group>";
-		};
-		3DDDD3F52B66410E002EFB12 /* homeWorkTwoTests */ = {
-			isa = PBXGroup;
-			children = (
-				3DDDD3F62B66410E002EFB12 /* homeWorkTwoTests.swift */,
-			);
-			path = homeWorkTwoTests;
-			sourceTree = "<group>";
-		};
-		3DDDD3FF2B66410E002EFB12 /* homeWorkTwoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3DDDD4002B66410E002EFB12 /* homeWorkTwoUITests.swift */,
-				3DDDD4022B66410E002EFB12 /* homeWorkTwoUITestsLaunchTests.swift */,
-			);
-			path = homeWorkTwoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DDDD3F72B66410E002EFB12 /* homeWorkTwoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DDDD4012B66410E002EFB12 /* homeWorkTwoUITests.swift in Sources */,
-				3DDDD4032B66410E002EFB12 /* homeWorkTwoUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
